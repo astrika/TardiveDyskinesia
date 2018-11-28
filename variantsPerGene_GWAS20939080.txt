@@ -1,0 +1,12 @@
+      1 ANXA1
+      2 ARID5B
+      2 DACH1
+      1 GPR88
+      1 NFIL3
+      1 NTM
+      2 PCDH7
+      1 SH3GL2
+      1 SIX1
+      1 SIX6
+      1 TBL1XR1
+      2 VCAM1
