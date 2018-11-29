@@ -11,9 +11,9 @@
 # will be named by the gene closest to where variants are located
 
 
-file="/mnt/c/Users/Nereida/Dev/Bioinformatics/SBMI Fall 2018/BMI5330/TD/TardiveDyskinesia/TDgenes_GWAS20939080.txt"
+file="/mnt/c/Users/Nereida/Dev/Bioinformatics/SBMI Fall 2018/BMI5330/TD/TardiveDyskinesia/TDgenes_GWAS21826085.txt"
 
 while IFS= read -r gene
 do
-	        awk -v gene="$gene" {'if(match($13, gene)) print$1,$4,$5'} TDvariants_GWAS20939080.txt > "$gene"_variants.txt
+	        awk -v gene="$gene" {'if(match($6, gene)) print$2,$4,$5'} TDvariants_GWAS21826085.txt > "$gene"_variants.txt
 	done <"$file"
