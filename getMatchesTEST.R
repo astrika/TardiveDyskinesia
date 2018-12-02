@@ -1,4 +1,6 @@
+#Astrid M Manuel 12/03/2018
 #This is the same as getMatches.R, but with an included test
+#Run this file to test getMatches.R output
 
 study <- "GWAS20939080"
 genefile <- read.table(paste("c:\\Users\\Nereida\\Dev\\Bioinformatics\\SBMI Fall 2018\\BMI5330\\TD\\TardiveDyskinesia\\TDgenes_",study, ".txt",sep=""))
